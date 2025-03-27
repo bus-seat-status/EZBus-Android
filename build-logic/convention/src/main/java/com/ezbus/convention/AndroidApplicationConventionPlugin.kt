@@ -12,7 +12,7 @@ class AndroidApplicationConventionPlugin : Plugin<Project> {
     override fun apply(target: Project) {
         with(target) {
             with(pluginManager) {
-                apply("com.android.applciation")
+                apply("com.android.application")
                 apply("org.jetbrains.kotlin.android")
             }
 
